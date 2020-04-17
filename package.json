@@ -1,4 +1,5 @@
 {
+  "name":"dredd",
   "private": true,
   "scripts": {
     "build": "lerna exec --scope=\"*\" yarn build",
