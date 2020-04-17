@@ -26,7 +26,7 @@ function performRequest(uri, transactionReq, options, callback) {
 
   const httpOptions = Object.assign({}, options.http || {});
   httpOptions.proxy = false;
-  httpOptions.followRedirect = false;
+  httpOptions.followRedirect = true;
   httpOptions.encoding = null;
   httpOptions.method = transactionReq.method;
   httpOptions.uri = uri;
